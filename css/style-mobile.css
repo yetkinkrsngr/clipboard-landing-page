@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--bai-jamuree);
+}
+:root{
+    /* Primary */
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    /* Neutral */
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+    /* Typography */
+    --Font-size: 18px;
+    --bai-jamuree:'Bai Jamjuree', sans-serif;
+    }
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.mid-info{
+    text-align: center;
+    padding-left:35px;
+    padding-right: 35px; 
+}
+.mid-info h1{
+font-size: 28px;
+padding-left:30px;
+padding-right: 30px; 
+}
+.mid-info p{
+    opacity: .5;
+}
+.logo{
+    background-image: url("../images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    text-align: center;
+
+}
+.logo::before{opacity: .6;}
+.logo-center{
+margin-top: 10%;
+opacity: .9;
+}
+.button-side{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    height: 50px;
+    width: 300px;
+    align-self: center;
+    margin: 10px;
+    border-radius: 30px;
+    border: 0;
+
+
+}
+.green{
+    background-color: var(--Strong-Cyan);
+}
+.blue{
+ background-color: var(--Light-Blue);
+}
+.btn-link{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.advert{
+    margin-top: 30px;
+}
+.left{
+    display: block;
+    height: 100px;
+}
+.left>img{
+    width: 80%;
+    height: 250px;
+}
+.right{
+    display: block;
+    margin-top: 200px;
+}
+
+.product-img{
+
+    width: 99%;
+}
+.product-img img{
+    width: 100%;
+}
+.Company-work-with{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.Company-work-with img{
+    width: 30%;
+    padding: 40px;
+    margin-left: 25%;
+}
+.padd p{
+    padding: 20px;
+    line-height: 25px;
+}
+.footer-menu{
+    height: 300px;
+    padding: 50px;
+    background-color:hsla(26, 6%, 77%, 0.2);
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+.footer-logo{
+    width: 40%;
+    margin-top: -30px;
+}
+.footer-logo img{
+    width: 50%;
+    margin-left: 100%;
+
+}
+.footer-link img{
+    width: 80%;
+}
+.footer-link{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top:25px;
+}
+.footer-link div{
+    display: grid;
+    grid-template-columns: auto;
+}
+.footer-link a{
+
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: black;
+    opacity: .6;
+}
+
+.f-logo a{
+    margin:15px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
