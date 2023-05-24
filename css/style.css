@@ -15,14 +15,146 @@ body{
 --Font-size: 18px;
 --bai-jamuree:'Bai Jamjuree', sans-serif;
 }
-
-
-
-
-
-
-
-
+.container{
+    display: grid;
+    grid-template-columns: auto;
+}
+.logo{
+    background-image: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+}
+.logo-center{
+    margin:60px;
+}
+.mid-info-desktop{
+    text-align: center;
+}
+.mid-info-desktop h1{
+    font-size: 64px;
+    opacity: .6;
+    margin-top: -10px;
+    font-weight: 600;
+}
+.mid-info-desktop p{
+    padding-left:480px;
+    padding-right: 480px;
+    line-height: 25px;
+    opacity: .6;
+    margin-top: -50px;
+}
+.button-side-desktop{
+    height: 200px;
+}
+.btn{
+    height: 50px;
+    width: 250px;
+    align-self: center;
+    margin: 10px;
+    border-radius: 30px;
+    border: 0;
+}
+.green{
+    background-color: var(--Strong-Cyan);
+}
+.blue{
+ background-color: var(--Light-Blue);
+}
+.btn-link{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.mid-info-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.mid-info-text h1{
+    font-size: 32px;
+}
+.mid-info-text p{
+font-size: 18px;
+padding-left: 400px;
+padding-right: 400px;
+line-height: 30px;
+opacity: .6;
+}
+.advert-flex{
+    display: flex;
+}
+.right{
+    width: 100%;
+    padding: 100px;
+}
+.mid-info-detals{
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.mid-info-paragraf{
+    padding-right: 230px;
+    line-height: 30px;
+    opacity: .6;
+}
+.product-img{
+    text-align: center;
+}
+.info-product{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.info-product-row{
+    text-align: center;
+}
+.product-paragraf{
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 30px;
+    opacity: .6;
+}
+.product-paragraf-margin{
+    margin-top: 27px;
+}
+.Company-work-with img{
+    margin-left: 9%;
+}
+.footer-menu{
+    height: 150px;
+    display: flex;
+    justify-content:space-around;
+}
+.footer-menu-background{
+    background-color: #f0ebeb;
+    opacity: .8;
+}
+.footer-logo{
+    align-self: center;
+}
+.footer-logo img{
+    width: 60px;
+}
+.footer-link{
+    align-self: center;
+    display: flex;
+}
+.footer-link-first{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:5px;
+}
+.footer-link-first a{
+    margin:10px;
+    text-decoration: none;
+    color: black;
+    opacity: .9;
+}
+.f-logo{
+    align-self: center;
+}
+.f-logo img{
+    margin-left: 25px;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
